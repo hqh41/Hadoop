@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export3.dtd">
+<en-export export-date="20190720T041600Z" application="Evernote" version="Evernote Mac 6.13.1 (455786)">
+<note><title>MapReduce应用开发</title><content><![CDATA[<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note><div>一.MapReduce编程遵循一个特定的流程。</div><div>1.编写map和reduce函数，最好使用单元测试来确保函数的运行符合预期</div><div>2.写一个驱动程序来运行作业，看这个驱动程序是否可以正常运行</div><div>3.如果驱动程序不能正常运行，通过调试信息，扩展单元测试来覆盖着一用例，从而改进mapper或reducer，使其能正确处理类似输入</div><div>4.一旦程序按照预期通过小型数据集的测试，就可以考虑把它放在集群上运行了。如果出现问题，可通过拓展测试用例及修改mapper或reducer函数的方式来应对新的情况。</div><div>5.程序可以正确运行之后，如果想进行一些优化调整，首先需要执行一些标准检查，借此加快MapReduce程序的运行速度，然后再做任务剖析。分布式程序的分析并不简单，Hadoop提供了钩子(hook)来辅助这个过程</div><div><br /></div><div><br /></div></en-note>]]></content><created>20190714T233602Z</created><updated>20190714T234428Z</updated><note-attributes><latitude>34.21917092090044</latitude><longitude>108.8892695021868</longitude><altitude>410.7138061523438</altitude><author>hqh41@outlook.com</author><source>desktop.mac</source><reminder-order>0</reminder-order></note-attributes></note>
+</en-export>
